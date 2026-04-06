@@ -13,8 +13,6 @@ Worthra is designed around four core product goals:
 - provide visually polished dashboards, goals, and insights
 - use maintainable architecture that is easy to review and extend
 
-The current app includes a complete local-first implementation for core personal finance features, with additional auth and sync scaffolding prepared for future server-backed expansion.
-
 ## Key Features
 
 ### User-facing features
