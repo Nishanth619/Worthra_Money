@@ -2,7 +2,7 @@
 
 Worthra is a Flutter-based personal finance companion focused on clean UX, offline-first data handling, and production-style mobile architecture. The app helps users track transactions, monitor balance trends, manage savings goals and streak challenges, review insights, protect the app with biometrics, and receive daily reminder notifications.
 
-This repository was built from HTML/CSS design blueprints and translated into a native Flutter mobile experience with a feature-first structure, shared theming, local persistence, and test coverage.
+This repository contains a native Flutter mobile experience with a feature-first structure, shared theming, local persistence, and test coverage.
 
 ## Overview
 
@@ -84,7 +84,6 @@ lib/
 
 ```text
 assets/                    # logos, icons, branding assets
-stitch_add_transaction/    # source HTML/CSS blueprints and mockups
 test/                      # widget, golden, repository, and provider tests
 android/ ios/ web/         # platform runners and app config
 ```
@@ -184,7 +183,7 @@ These foundation pieces are present in the codebase, but the app should still be
 
 ## Design Notes
 
-The visual system is based on the provided HTML/CSS mockups stored in `stitch_add_transaction/`. Those blueprints were translated into Flutter widgets while preserving:
+The visual system focuses on clear hierarchy, balanced spacing, and a polished mobile-first presentation. The Flutter implementation emphasizes:
 
 - structural hierarchy
 - spacing and padding rhythm
@@ -319,7 +318,6 @@ If you are reviewing this project, the strongest areas to inspect are:
 
 ## Repository Notes
 
-- `stitch_add_transaction/` contains the original design blueprint sources used to guide the Flutter implementation
 - generated files such as Isar `.g.dart` files and localization outputs are included where needed for buildability
 - build outputs are intentionally ignored from version control
 

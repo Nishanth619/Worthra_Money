@@ -39,6 +39,7 @@ migrate_working_dir/
 **/flutter/ephemeral/
 android/local.properties
 test/goldens/failures/
+stitch_add_transaction/
 
 # Symbolication related
 app.*.symbols
