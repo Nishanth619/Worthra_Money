@@ -1,0 +1,158 @@
+{
+  "@@locale": "es",
+
+  "appName": "Worthra",
+  "appTagline": "Tu compañero de finanzas",
+  "appBrandName": "WORTHRA",
+  "appVersion": "Versión de la App 1.0.0",
+
+  "cancelButton": "Cancelar",
+  "deleteButton": "Eliminar",
+  "closeButton": "Cerrar",
+  "saveButton": "Guardar",
+
+  "navHome": "Inicio",
+  "navHistory": "Historial",
+  "navGoals": "Metas",
+  "navInsights": "Análisis",
+
+  "portfolioLabel": "Portafolio",
+  "guestUserName": "Usuario Invitado",
+  "dashboardGreeting": "Buenos días, {name}",
+  "@dashboardGreeting": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "dashboardSubtitle": "Este es tu estado financiero de hoy.",
+  "currentBalanceLabel": "SALDO ACTUAL",
+  "monthlyIncomeLabel": "Ingresos Mensuales",
+  "monthlyExpensesLabel": "Gastos Mensuales",
+  "weeklySpendingTrendLabel": "Tendencia de Gasto Semanal",
+  "last7DaysLabel": "Últimos 7 Días",
+  "recentTransactionsLabel": "Transacciones Recientes",
+  "viewAllButton": "Ver Todo",
+  "emptyDashboardMessage": "Agrega tu primera transacción para llenar el panel.",
+
+  "dayMon": "Lun",
+  "dayTue": "Mar",
+  "dayWed": "Mié",
+  "dayThu": "Jue",
+  "dayFri": "Vie",
+  "daySat": "Sáb",
+  "daySun": "Dom",
+
+  "vaultStatusTitle": "Estado del Almacén Local",
+  "transactionsLabel": "Transacciones",
+  "goalsLabel": "Metas",
+  "storageLabel": "Almacenamiento",
+  "localStorageValue": "Base de Datos Isar Local",
+
+  "settingsTitle": "Ajustes",
+  "preferencesSection": "Preferencias",
+  "themeLabel": "Tema",
+  "themeLightLabel": "Claro",
+  "themeDarkLabel": "Oscuro",
+  "currencyLabel": "Moneda",
+  "languageLabel": "Idioma",
+  "remindersSection": "Recordatorios",
+  "dailyReminderLabel": "Recordatorio Diario",
+  "reminderTimeLabel": "Hora del Recordatorio",
+
+  "securityDataSection": "Seguridad y Datos",
+  "biometricLockLabel": "Bloqueo Biométrico",
+  "exportCsvLabel": "Exportar Datos (CSV)",
+  "exportingLabel": "Exportando Datos...",
+
+  "aboutSection": "Acerca de",
+  "privacyPolicyLabel": "Política de Privacidad",
+  "privacyPolicyBody": "Todos los datos de la app se almacenan localmente en tu dispositivo, a menos que agregues sincronización. Las exportaciones se crean solo cuando las solicitas.",
+  "termsLabel": "Términos y Condiciones",
+  "termsBody": "Esta versión usa una base de datos local sin conexión. Eres responsable de mantener seguros los archivos exportados si los mueves fuera de la app.",
+
+  "deleteAccountButton": "Eliminar Cuenta y Datos",
+  "deleteAllDataTitle": "¿Eliminar todos los datos locales?",
+  "deleteAllDataContent": "Esto borrará tus transacciones, metas y restablecerá los ajustes predeterminados en este dispositivo.",
+  "dataClearedMessage": "Todos los datos locales han sido eliminados.",
+  "csvExportedMessage": "CSV exportado a {path}",
+  "@csvExportedMessage": {
+    "placeholders": {
+      "path": {
+        "type": "String"
+      }
+    }
+  },
+
+  "syncSection": "Sincronización",
+  "lastSyncedLabel": "Última Sincronización",
+  "syncNowLabel": "Sincronizar Ahora",
+  "syncingLabel": "Sincronizando...",
+  "syncSuccessMessage": "Sincronización completada con éxito.",
+  "syncErrorMessage": "Error de sincronización. Se reintentará cuando haya conexión.",
+  "neverSyncedLabel": "Nunca",
+
+  "accountSection": "Cuenta",
+  "signOutLabel": "Cerrar Sesión",
+  "signOutConfirmTitle": "¿Cerrar sesión?",
+  "signOutConfirmContent": "Tus datos locales permanecerán en este dispositivo.",
+
+  "loginTitle": "Bienvenido de vuelta",
+  "loginSubtitle": "Inicia sesión para sincronizar tus finanzas de forma segura.",
+  "signupTitle": "Crear cuenta",
+  "signupSubtitle": "Empieza a rastrear tus finanzas de forma privada.",
+  "emailLabel": "Correo Electrónico",
+  "passwordLabel": "Contraseña",
+  "nameLabel": "Nombre Completo",
+  "loginButton": "Iniciar Sesión",
+  "signupButton": "Crear Cuenta",
+  "goToSignupLabel": "¿No tienes cuenta? Regístrate",
+  "goToLoginLabel": "¿Ya tienes cuenta? Inicia sesión",
+  "loginErrorMessage": "Correo o contraseña incorrectos. Inténtalo de nuevo.",
+  "signupErrorMessage": "Error al registrarse. Inténtalo de nuevo.",
+  "continueOfflineLabel": "Continuar sin cuenta",
+
+  "goalsHeaderTracker": "RASTREADOR DE PROGRESO",
+  "goalsHeaderTitle": "Mis Metas",
+  "goalsHeaderSubtitle": "Construye riqueza mediante el ahorro intencional y las rachas.",
+  "goalsSectionSavings": "Metas de Ahorro",
+  "goalsSectionStreaks": "Retos de Racha",
+  "goalStatusCompleted": "Completado \ud83c\udfc6",
+  "goalStatusDoneToday": "Hecho hoy \u2705",
+  "goalStatusActive": "Activo \ud83d\udd25",
+  "goalStatusNotStarted": "A\u00fan no iniciado",
+  "goalStatusBroken": "Racha rota \ud83d\udc94",
+  "goalsEmptyTitle": "Inicia tu Viaje Financiero",
+  "goalsEmptySubtitle": "Crea una meta de ahorro o un h\u00e1bito para empezar a rastrear tu progreso.",
+  "goalAddLabel": "A\u00f1adir",
+  "goalLabelDays": "d\u00edas",
+
+  "insightsHeaderIntelligence": "INTELIGENCIA FINANCIERA",
+  "insightsHeaderTitle": "An\u00e1lisis de Gastos",
+  "insightsHeaderSubtitle": "Un desglose detallado de tu huella financiera.",
+  "insightsTabWeekly": "Semanal",
+  "insightsTabMonthly": "Mensual",
+  "insightsIncome": "Ingresos",
+  "insightsExpenses": "Gastos",
+  "insightsSaved": "Ahorrado",
+  "insightsGreenBanner": "Est\u00e1s en n\u00fameros verdes \ud83d\udcaa",
+  "insightsRedBanner": "El gasto supera a los ingresos",
+  "insightsSurplus": "Super\u00e1vit neto:",
+  "insightsDeficit": "D\u00e9ficit neto:",
+  "insightsThisPeriod": "este periodo",
+  "insightsCategoryBreakdown": "Desglose por Categor\u00eda",
+  "insightsOfExpenses": "de los gastos",
+  "insightsTopBadge": "TOP",
+  "insightsTipTitle": "Consejo con IA",
+  "insightsTipEmpty": "A\u00f1ade m\u00e1s transacciones para desbloquear consejos personalizados.",
+  "insightsTipMoreThanHalf": "{category} consume el {percentage}% de tus gastos \u2014 \u00a1eso es m\u00e1s de la mitad! Busca formas de reducirlo.",
+  "@insightsTipMoreThanHalf": { "placeholders": { "category": { "type": "String" }, "percentage": { "type": "String" } } },
+  "insightsTipLeads": "{category} lidera con un {percentage}%. Considera establecer un tope mensual para esta categor\u00eda.",
+  "@insightsTipLeads": { "placeholders": { "category": { "type": "String" }, "percentage": { "type": "String" } } },
+  "insightsTipBalanced": "Tus gastos est\u00e1n bien distribuidos en las categor\u00edas. \u00a1Mant\u00e9n este equilibrio!",
+  "insightsTipTop": "{category} es tu \u00e1rea de mayor gasto con el {percentage}%. \u00a1Buen trabajo manteni\u00e9ndolo bajo control!",
+  "@insightsTipTop": { "placeholders": { "category": { "type": "String" }, "percentage": { "type": "String" } } },
+  "insightsEmptyTitle": "Sin datos de gastos",
+  "insightsEmptySubtitle": "A\u00f1ade transacciones de gastos y vuelve para ver tu desglose de gastos."
+}

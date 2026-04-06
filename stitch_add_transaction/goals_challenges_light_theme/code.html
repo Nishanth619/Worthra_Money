@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700;800&amp;family=Inter:wght@300;400;500;600&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+    tailwind.config = {
+      darkMode: "class",
+      theme: {
+        extend: {
+          colors: {
+            "on-surface-variant": "#6B7280", // Medium slate
+            "on-secondary": "#FFFFFF",
+            "secondary-fixed": "#FEE2E2",
+            "secondary-fixed-dim": "#FECACA",
+            "surface-container-low": "#FFFFFF",
+            "on-primary-container": "#064e3b",
+            "tertiary-fixed-dim": "#c0c1ff",
+            "surface-tint": "#10b981", // Emerald Green
+            "on-tertiary": "#FFFFFF",
+            "secondary": "#EF4444",
+            "on-surface": "#1A1C23", // Deep charcoal
+            "background": "#F4F5F7", // Soft light-gray/off-white
+            "surface-variant": "#E5E7EB",
+            "primary-fixed": "#D1FAE5",
+            "tertiary": "#4F46E5",
+            "on-tertiary-container": "#312E81",
+            "inverse-surface": "#1A1C23",
+            "primary-fixed-dim": "#6EE7B7",
+            "on-error": "#FFFFFF",
+            "on-error-container": "#450a0a",
+            "on-secondary-container": "#450a0a",
+            "outline": "#9CA3AF",
+            "inverse-primary": "#10b981",
+            "on-tertiary-fixed": "#1E1B4B",
+            "surface-container": "#FFFFFF", // Pure white
+            "surface-dim": "#F4F5F7",
+            "on-secondary-fixed": "#450a0a",
+            "surface-bright": "#FFFFFF",
+            "secondary-container": "#FEE2E2",
+            "on-background": "#1A1C23",
+            "surface-container-lowest": "#FFFFFF",
+            "tertiary-container": "#E0E7FF",
+            "inverse-on-surface": "#F9FAFB",
+            "tertiary-fixed": "#E0E7FF",
+            "on-secondary-fixed-variant": "#991B1B",
+            "primary": "#10b981", // Emerald Green
+            "on-primary": "#FFFFFF",
+            "primary-container": "#D1FAE5",
+            "outline-variant": "#E5E7EB",
+            "on-primary-fixed": "#064e3b",
+            "surface": "#F4F5F7",
+            "error": "#EF4444",
+            "error-container": "#FEE2E2",
+            "surface-container-high": "#FFFFFF",
+            "on-tertiary-fixed-variant": "#3730A3",
+            "surface-container-highest": "#F3F4F6",
+            "on-primary-fixed-variant": "#065f46"
+          },
+          fontFamily: {
+            "headline": ["Manrope"],
+            "body": ["Inter"],
+            "label": ["Inter"]
+          },
+          borderRadius: {"DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "2xl": "1.5rem", "full": "9999px"},
+          boxShadow: {
+            'diffuse': '0 10px 30px -5px rgba(0, 0, 0, 0.05)',
+          }
+        },
+      },
+    }
+  </script>
+<style>
+    body { font-family: 'Inter', sans-serif; }
+    h1, h2, h3 { font-family: 'Manrope', sans-serif; }
+    .material-symbols-outlined {
+      font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+    }
+    .wealth-arc-glow {
+      filter: drop-shadow(0 0 8px rgba(16, 185, 129, 0.2));
+    }
+    .editorial-grid {
+      display: grid;
+      grid-template-columns: repeat(12, 1fr);
+      gap: 1.5rem;
+    }
+  </style>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+</head>
+<body class="bg-background text-on-surface min-h-screen pb-32">
+<!-- TopAppBar -->
+<header class="bg-background/80 backdrop-blur-md flex justify-between items-center w-full px-6 py-4 fixed top-0 z-50">
+<div class="flex items-center gap-3">
+<div class="w-10 h-10 rounded-full bg-surface-container-highest flex items-center justify-center overflow-hidden">
+<img alt="user profile" data-alt="close-up portrait of a professional woman with a minimalist aesthetic, soft studio lighting, muted dark tones" src="https://lh3.googleusercontent.com/aida-public/AB6AXuANYV-RsKGxkvTOWPgQtRYbmkWAvMjOnE1I4Qlb6bsMxQESDgDaJUxNGq1ecNQw0bPZcO8aMpp_UQRsuPpQKDPQ23NcPZl9rXt1xDlbP-ROyQuv3iGI67Kqf7qNq02qt3GT2PK4hwbvmYUtACwJvuz7kq1JUbaaa1N1_njqAAWZKvXyZCQEluKbufkmBa89VLQXyZ1mqSAn6u2DPfW-LhZVFoakx8f7WhpTcITn7t9EcACGepZ0rjgAEj5Q7zwFa_Qo1AWMBg4frjAX"/>
+</div>
+<span class="text-lg font-bold tracking-[0.2em] text-on-surface">THE SILENT LEDGER</span>
+</div>
+<div class="flex items-center gap-4">
+<button class="material-symbols-outlined text-primary hover:bg-surface-container-highest transition-colors duration-300 p-2 rounded-full" data-icon="notifications">notifications</button>
+</div>
+</header>
+<main class="max-w-screen-xl mx-auto px-6 pt-24">
+<!-- Editorial Header Section -->
+<section class="mb-12 pt-8">
+<p class="text-primary font-bold tracking-widest text-xs uppercase mb-2">PROGRESS TRACKER</p>
+<h1 class="text-5xl md:text-7xl font-extrabold tracking-tight text-on-surface mb-4">Challenges &amp; Goals</h1>
+<p class="text-on-surface-variant max-w-md text-lg leading-relaxed">Your financial resilience is built on small, intentional victories. Track your discipline here.</p>
+</section>
+<!-- Bento-inspired Layout -->
+<div class="editorial-grid">
+<!-- Gamified Card 1: No-Spend Challenge (Left/Top) -->
+<div class="col-span-12 lg:col-span-7 bg-surface-container rounded-2xl p-8 flex flex-col md:flex-row items-center gap-8 relative overflow-hidden group shadow-diffuse border border-gray-100">
+<!-- Visual Accent -->
+<div class="absolute top-0 right-0 w-32 h-32 bg-primary/5 rounded-full -mr-16 -mt-16 blur-3xl"></div>
+<!-- Wealth Arc (Circular Progress) -->
+<div class="relative flex-shrink-0">
+<svg class="w-48 h-48 transform -rotate-90">
+<circle class="text-surface-container-highest" cx="96" cy="96" fill="transparent" r="80" stroke="currentColor" stroke-width="12"></circle>
+<circle class="text-primary wealth-arc-glow" cx="96" cy="96" fill="transparent" r="80" stroke="currentColor" stroke-dasharray="502.6" stroke-dashoffset="143.6" stroke-linecap="round" stroke-width="12"></circle>
+</svg>
+<div class="absolute inset-0 flex flex-col items-center justify-center">
+<span class="text-4xl font-extrabold text-on-surface tracking-tighter">5 Days</span>
+<span class="uppercase tracking-[0.2em] text-on-surface-variant font-bold text-xs">CURRENT STREAK</span>
+</div>
+</div>
+<div class="flex flex-col flex-grow text-center md:text-left">
+<h2 class="text-2xl font-bold mb-2">No-Spend Streak</h2>
+<p class="mb-8 font-body text-on-surface">Keep it up! 2 days left to hit your weekly goal.</p>
+<button class="bg-primary text-on-primary font-bold py-4 px-8 rounded-xl title-sm hover:brightness-95 transition-all duration-200 shadow-lg shadow-primary/20">
+            Log No-Spend Day
+          </button>
+</div>
+</div>
+<!-- Stat Card: Quick Glance (Right/Small) -->
+<div class="col-span-12 md:col-span-6 lg:col-span-5 bg-surface-container rounded-2xl p-8 flex flex-col justify-between border border-gray-100 shadow-diffuse">
+<div>
+<span class="material-symbols-outlined text-primary text-4xl mb-6" data-icon="military_tech">military_tech</span>
+<h3 class="text-xl font-bold mb-2">Discipline Rank</h3>
+<p class="text-sm text-on-surface-variant">You are in the top 12% of savers this month. Consistency is your superpower.</p>
+</div>
+<div class="mt-8 flex items-baseline gap-2">
+<span class="text-5xl font-extrabold text-primary font-headline tracking-tighter">84</span>
+<span class="text-on-surface-variant font-bold text-sm tracking-widest uppercase text-xs">SCORE</span>
+</div>
+</div>
+<!-- Card 2: Savings Goal (Full Width or Large) -->
+<div class="col-span-12 bg-surface-container rounded-2xl p-8 md:p-12 relative overflow-hidden shadow-diffuse border border-gray-100">
+<div class="flex flex-col md:flex-row md:items-end justify-between gap-6 mb-10">
+<div class="max-w-xl">
+<div class="flex items-center gap-2 mb-4">
+<span class="material-symbols-outlined text-primary" data-icon="flight_takeoff">flight_takeoff</span>
+<span class="font-bold tracking-[0.3em] uppercase text-primary text-sm">LONG TERM GOAL</span>
+</div>
+<h2 class="text-3xl md:text-4xl font-extrabold mb-3 leading-tight tracking-tight">Relocation Fund (Germany &amp; Russia)</h2>
+<p class="text-on-surface-variant">Targeting completion by December 2024 for moving expenses and visa deposits.</p>
+</div>
+<div class="text-right">
+<p class="text-4xl font-extrabold font-headline text-on-surface">€2,500 <span class="text-on-surface-variant font-medium text-lg tracking-normal">/ €5,000</span></p>
+</div>
+</div>
+<!-- Linear Progress Bar -->
+<div class="w-full h-4 bg-surface-container-highest rounded-full overflow-hidden mb-10">
+<div class="h-full w-1/2 bg-primary rounded-full shadow-[0_0_15px_rgba(16,185,129,0.15)]"></div>
+</div>
+<div class="flex flex-col sm:flex-row gap-4">
+<button class="flex-1 bg-surface-container-highest text-on-surface font-bold py-5 px-8 rounded-xl hover:bg-surface-variant transition-all active:scale-95 flex items-center justify-center gap-3 text-lg"><span class="material-symbols-outlined" data-icon="add">add</span> Add Funds</button>
+<button class="px-8 py-4 text-on-surface-variant font-semibold hover:text-primary transition-colors">
+            View Breakdown
+          </button>
+</div>
+</div>
+<!-- Side Quest/Mini Challenge -->
+<div class="col-span-12 md:col-span-6 bg-surface-container-low rounded-2xl p-6 flex items-start gap-4 border border-gray-100 shadow-diffuse">
+<div class="p-3 bg-secondary/10 rounded-xl">
+<span class="material-symbols-outlined text-secondary" data-icon="coffee">coffee</span>
+</div>
+<div>
+<h4 class="font-bold mb-1">Caffeine Cutback</h4>
+<p class="text-sm mb-3 text-on-surface-variant">Skip 3 artisanal coffees this week.</p>
+<div class="flex gap-1">
+<div class="w-2 h-2 rounded-full bg-primary"></div>
+<div class="w-2 h-2 rounded-full bg-primary"></div>
+<div class="w-2 h-2 rounded-full bg-surface-container-highest"></div>
+</div>
+</div>
+</div>
+<div class="col-span-12 md:col-span-6 bg-surface-container-low rounded-2xl p-6 flex items-start gap-4 border border-gray-100 shadow-diffuse">
+<div class="p-3 bg-primary/10 rounded-xl">
+<span class="material-symbols-outlined text-primary" data-icon="electric_bolt">electric_bolt</span>
+</div>
+<div>
+<h4 class="font-bold mb-1">Energy Saver</h4>
+<p class="text-sm mb-3 text-on-surface-variant">Reduce utility bill by 10% vs last month.</p>
+<span class="text-xs font-bold text-primary bg-primary/10 px-2 py-1 rounded">ON TRACK</span>
+</div>
+</div>
+</div>
+</main>
+<!-- BottomNavBar -->
+<nav class="fixed bottom-0 left-0 w-full z-50 flex justify-around items-center px-4 pb-6 pt-2 bg-white/80 backdrop-blur-xl shadow-[0_-4px_40px_rgba(0,0,0,0.05)] rounded-t-[1.5rem] md:hidden">
+<div class="flex flex-col items-center justify-center text-on-surface-variant px-4 py-2 hover:text-primary transition-all">
+<span class="material-symbols-outlined" data-icon="home">home</span>
+<span class="text-[12px] font-medium mt-1 font-label tracking-wide">Home</span>
+</div>
+<div class="flex flex-col items-center justify-center text-on-surface-variant px-4 py-2 hover:text-primary transition-all">
+<span class="material-symbols-outlined" data-icon="receipt_long">receipt_long</span>
+<span class="text-[12px] font-medium mt-1 font-label tracking-wide">Transactions</span>
+</div>
+<div class="flex flex-col items-center justify-center text-primary bg-primary/5 rounded-xl px-4 py-2 scale-90">
+<span class="material-symbols-outlined" data-icon="track_changes" style="font-variation-settings: 'FILL' 1;">track_changes</span>
+<span class="text-[12px] font-bold mt-1 font-label tracking-wide">Goals</span>
+</div>
+<div class="flex flex-col items-center justify-center text-on-surface-variant px-4 py-2 hover:text-primary transition-all">
+<span class="material-symbols-outlined" data-icon="insights">insights</span>
+<span class="text-[12px] font-medium mt-1 font-label tracking-wide">Insights</span>
+</div>
+</nav>
+</body></html>

@@ -1,0 +1,158 @@
+{
+  "@@locale": "en",
+
+  "appName": "Worthra",
+  "appTagline": "Money, made clear",
+  "appBrandName": "WORTHRA",
+  "appVersion": "App Version 1.0.0",
+
+  "cancelButton": "Cancel",
+  "deleteButton": "Delete",
+  "closeButton": "Close",
+  "saveButton": "Save",
+
+  "navHome": "Home",
+  "navHistory": "History",
+  "navGoals": "Goals",
+  "navInsights": "Insights",
+
+  "portfolioLabel": "Portfolio",
+  "guestUserName": "Guest User",
+  "dashboardGreeting": "Good morning, {name}",
+  "@dashboardGreeting": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "dashboardSubtitle": "Here is a clear view of your money today.",
+  "currentBalanceLabel": "CURRENT BALANCE",
+  "monthlyIncomeLabel": "Monthly Income",
+  "monthlyExpensesLabel": "Monthly Expenses",
+  "weeklySpendingTrendLabel": "Weekly Spending Trend",
+  "last7DaysLabel": "Last 7 Days",
+  "recentTransactionsLabel": "Recent Transactions",
+  "viewAllButton": "View All",
+  "emptyDashboardMessage": "Add a transaction to start tracking your money.",
+
+  "dayMon": "Mon",
+  "dayTue": "Tue",
+  "dayWed": "Wed",
+  "dayThu": "Thu",
+  "dayFri": "Fri",
+  "daySat": "Sat",
+  "daySun": "Sun",
+
+  "vaultStatusTitle": "Local Data Status",
+  "transactionsLabel": "Transactions",
+  "goalsLabel": "Goals",
+  "storageLabel": "Storage",
+  "localStorageValue": "Stored on this device",
+
+  "settingsTitle": "Settings",
+  "preferencesSection": "Preferences",
+  "themeLabel": "Theme",
+  "themeLightLabel": "Light",
+  "themeDarkLabel": "Dark",
+  "currencyLabel": "Currency",
+  "languageLabel": "Language",
+  "remindersSection": "Reminders",
+  "dailyReminderLabel": "Daily Reminder",
+  "reminderTimeLabel": "Reminder Time",
+
+  "securityDataSection": "Security & Data",
+  "biometricLockLabel": "Biometric App Lock",
+  "exportCsvLabel": "Export Data (CSV)",
+  "exportingLabel": "Exporting Data...",
+
+  "aboutSection": "About",
+  "privacyPolicyLabel": "Privacy Policy",
+  "privacyPolicyBody": "Your data stays on this device unless you choose to export it or enable sync later.",
+  "termsLabel": "Terms & Conditions",
+  "termsBody": "This app uses offline-first local storage. Keep exported files safe if you move them outside the app.",
+
+  "deleteAccountButton": "Delete Account & Data",
+  "deleteAllDataTitle": "Delete all local data?",
+  "deleteAllDataContent": "This will remove your transactions, goals, reminders, and app settings from this device.",
+  "dataClearedMessage": "All local data has been cleared.",
+  "csvExportedMessage": "CSV exported to {path}",
+  "@csvExportedMessage": {
+    "placeholders": {
+      "path": {
+        "type": "String"
+      }
+    }
+  },
+
+  "syncSection": "Sync",
+  "lastSyncedLabel": "Last Synced",
+  "syncNowLabel": "Sync Now",
+  "syncingLabel": "Syncing...",
+  "syncSuccessMessage": "Sync completed successfully.",
+  "syncErrorMessage": "Sync failed. Will retry when online.",
+  "neverSyncedLabel": "Never",
+
+  "accountSection": "Account",
+  "signOutLabel": "Sign Out",
+  "signOutConfirmTitle": "Sign out?",
+  "signOutConfirmContent": "Your local data will remain on this device.",
+
+  "loginTitle": "Welcome back",
+  "loginSubtitle": "Sign in to sync your finances securely.",
+  "signupTitle": "Create account",
+  "signupSubtitle": "Start tracking your finances privately.",
+  "emailLabel": "Email",
+  "passwordLabel": "Password",
+  "nameLabel": "Full Name",
+  "loginButton": "Sign In",
+  "signupButton": "Create Account",
+  "goToSignupLabel": "Don't have an account? Sign up",
+  "goToLoginLabel": "Already have an account? Sign in",
+  "loginErrorMessage": "Invalid email or password. Please try again.",
+  "signupErrorMessage": "Sign up failed. Please try again.",
+  "continueOfflineLabel": "Continue without account",
+
+  "goalsHeaderTracker": "PROGRESS TRACKER",
+  "goalsHeaderTitle": "My Goals",
+  "goalsHeaderSubtitle": "Track savings goals and daily streaks in one place.",
+  "goalsSectionSavings": "Savings Goals",
+  "goalsSectionStreaks": "Streak Challenges",
+  "goalStatusCompleted": "Completed",
+  "goalStatusDoneToday": "Done today",
+  "goalStatusActive": "Active",
+  "goalStatusNotStarted": "Not started yet",
+  "goalStatusBroken": "Streak broken",
+  "goalsEmptyTitle": "Create your first goal",
+  "goalsEmptySubtitle": "Start with a savings goal or a streak challenge.",
+  "goalAddLabel": "Add",
+  "goalLabelDays": "days",
+
+  "insightsHeaderIntelligence": "FINANCIAL INTELLIGENCE",
+  "insightsHeaderTitle": "Spending Insights",
+  "insightsHeaderSubtitle": "See where your money goes and spot spending patterns.",
+  "insightsTabWeekly": "Weekly",
+  "insightsTabMonthly": "Monthly",
+  "insightsIncome": "Income",
+  "insightsExpenses": "Expenses",
+  "insightsSaved": "Saved",
+  "insightsGreenBanner": "You are on track",
+  "insightsRedBanner": "You spent more than you earned",
+  "insightsSurplus": "Net surplus:",
+  "insightsDeficit": "Net deficit:",
+  "insightsThisPeriod": "this period",
+  "insightsCategoryBreakdown": "Category Breakdown",
+  "insightsOfExpenses": "of expenses",
+  "insightsTopBadge": "TOP",
+  "insightsTipTitle": "Smart tip",
+  "insightsTipEmpty": "Add a few expense transactions to unlock helpful tips.",
+  "insightsTipMoreThanHalf": "{category} makes up {percentage}% of your spending. Consider trimming this category first.",
+  "@insightsTipMoreThanHalf": { "placeholders": { "category": { "type": "String" }, "percentage": { "type": "String" } } },
+  "insightsTipLeads": "{category} leads at {percentage}%. A monthly cap could help keep it in check.",
+  "@insightsTipLeads": { "placeholders": { "category": { "type": "String" }, "percentage": { "type": "String" } } },
+  "insightsTipBalanced": "Your spending looks balanced across categories. Keep it up.",
+  "insightsTipTop": "{category} is your top spending category at {percentage}%. Keep an eye on it this period.",
+  "@insightsTipTop": { "placeholders": { "category": { "type": "String" }, "percentage": { "type": "String" } } },
+  "insightsEmptyTitle": "No spending data",
+  "insightsEmptySubtitle": "Add some expense transactions and come back to see your spending breakdown."
+}

@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700;800&amp;family=Inter:wght@400;500;600&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            colors: {
+              "on-surface-variant": "#6B7280",
+              "on-secondary": "#FFFFFF",
+              "secondary-fixed": "#FEE2E2",
+              "secondary-fixed-dim": "#FECACA",
+              "surface-container-low": "#FFFFFF",
+              "on-primary-container": "#FFFFFF",
+              "tertiary-fixed-dim": "#C7D2FE",
+              "surface-tint": "#10B981",
+              "on-tertiary": "#FFFFFF",
+              "secondary": "#EF4444",
+              "on-surface": "#1A1C23",
+              "background": "#F4F5F7",
+              "surface-variant": "#F9FAFB",
+              "primary-fixed": "#D1FAE5",
+              "tertiary": "#6366F1",
+              "on-tertiary-container": "#312E81",
+              "inverse-surface": "#1A1C23",
+              "primary-fixed-dim": "#A7F3D0",
+              "on-error": "#FFFFFF",
+              "on-error-container": "#7F1D1D",
+              "on-secondary-container": "#7F1D1D",
+              "outline": "#D1D5DB",
+              "inverse-primary": "#059669",
+              "on-tertiary-fixed": "#1E1B4B",
+              "surface-container": "#FFFFFF",
+              "surface-dim": "#F4F5F7",
+              "on-secondary-fixed": "#450A0A",
+              "surface-bright": "#FFFFFF",
+              "secondary-container": "#FEE2E2",
+              "on-background": "#1A1C23",
+              "surface-container-lowest": "#FFFFFF",
+              "tertiary-container": "#E0E7FF",
+              "inverse-on-surface": "#F4F5F7",
+              "tertiary-fixed": "#E0E7FF",
+              "on-secondary-fixed-variant": "#991B1B",
+              "primary": "#10B981",
+              "on-primary": "#FFFFFF",
+              "primary-container": "#10B981",
+              "outline-variant": "#E5E7EB",
+              "on-primary-fixed": "#064E3B",
+              "surface": "#FFFFFF",
+              "error": "#EF4444",
+              "error-container": "#FEE2E2",
+              "surface-container-high": "#FFFFFF",
+              "on-tertiary-fixed-variant": "#3730A3",
+              "surface-container-highest": "#F9FAFB",
+              "on-primary-fixed-variant": "#065F46"
+            },
+            fontFamily: {
+              "headline": ["Manrope"],
+              "body": ["Inter"],
+              "label": ["Inter"]
+            },
+            borderRadius: {"DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "1.5rem", "full": "9999px"},
+            boxShadow: {
+              'diffuse': '0 10px 30px -5px rgba(0, 0, 0, 0.05), 0 4px 15px -5px rgba(0, 0, 0, 0.05)',
+            }
+          },
+        },
+      }
+</script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        body { font-family: 'Inter', sans-serif; }
+        h1, h2, .font-headline { font-family: 'Manrope', sans-serif; }
+        .glass-fab {
+            background: linear-gradient(135deg, #10B981 0%, #059669 100%);
+            box-shadow: 0 8px 32px rgba(16, 185, 129, 0.3);
+        }
+    </style>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+</head>
+<body class="bg-background text-on-surface min-h-screen pb-32">
+<!-- TopAppBar -->
+<header class="bg-[#F4F5F7] docked full-width top-0 z-50">
+<div class="flex justify-between items-center w-full px-6 py-4">
+<div class="flex flex-col">
+<span class="text-on-surface-variant text-[12px] tracking-[0.25em] uppercase font-bold mb-1">Portfolio</span>
+<h1 class="text-lg font-bold tracking-[0.2em] text-[#1A1C23]">THE SILENT LEDGER</h1>
+</div>
+<div class="flex items-center gap-4">
+<button class="material-symbols-outlined text-[#10B981] hover:bg-surface-variant transition-colors duration-300 p-3 rounded-full min-w-[48px] min-h-[48px] flex items-center justify-center">notifications</button>
+<div class="w-10 h-10 rounded-full bg-surface-container-high border-2 border-primary overflow-hidden">
+<img class="w-full h-full object-cover" data-alt="professional male headshot with neutral background soft studio lighting clean aesthetic" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAyItNK1-M3yp6UDVzZVnlTTybKKTry1oFUoRaSeBlhZx9oaMy--W5-ewsPvJ91OCL-p--1LzABXb3HMtrV3qCGwfwanjFFO8kYOI8PknQ3wHup6PEYSEIROCIKVq5YqobUw1lpPe947m6X1Ek0V3q_7mNFynkJ9T59ZaMEZ2jzRnfIDbWVyZjH3rn39izHmsUTEiGGyv8P-Y3PlYcga_JjOApLx7rpaiJvAWl50nctqtJZc8xHfOcmuUpHh_ipiG4seb8mXP24rOlc"/>
+</div>
+</div>
+</div>
+</header>
+<main class="px-6 pt-4 space-y-8 max-w-2xl mx-auto">
+<!-- Welcome Section -->
+<section class="mt-4">
+<h2 class="text-3xl font-extrabold tracking-tight text-on-surface font-headline">Good morning, Nishanth</h2>
+<p class="text-on-surface-variant body-md mt-1">Here is your financial status for today.</p>
+</section>
+<!-- Primary Balance Card -->
+<section class="bg-surface-container rounded-xl p-8 relative overflow-hidden shadow-diffuse">
+<!-- Subtle background texture/glow -->
+<div class="absolute -top-24 -right-24 w-64 h-64 bg-primary/5 rounded-full blur-[80px]"></div>
+<div class="relative z-10">
+<span class="text-on-surface-variant label-sm tracking-widest uppercase font-semibold">Current Balance</span>
+<div class="mt-2 mb-8">
+<span class="text-5xl font-extrabold font-headline tracking-tighter text-on-surface">$4,250.00</span>
+</div>
+<!-- Custom Tonal Spacer (No border rule) -->
+<div class="h-[2px] w-full bg-surface-variant mb-8 opacity-60"></div>
+<div class="grid grid-cols-2 gap-8">
+<div class="flex flex-col">
+<span class="text-[10px] tracking-widest text-on-surface-variant uppercase font-bold mb-1">Monthly Income</span>
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-primary text-sm">arrow_upward</span>
+<span class="text-xl font-bold font-headline text-primary">$5,000</span>
+</div>
+</div>
+<div class="flex flex-col">
+<span class="text-[10px] tracking-widest text-on-surface-variant uppercase font-bold mb-1">Monthly Expenses</span>
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-secondary text-sm">arrow_downward</span>
+<span class="text-xl font-bold font-headline text-secondary">$750</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Visual Section: Weekly Trend -->
+<section class="space-y-4">
+<div class="flex justify-between items-end">
+<h3 class="text-lg font-bold font-headline">Weekly Spending Trend</h3>
+<span class="text-primary text-xs font-semibold px-2 py-1 bg-primary/10 rounded-lg">Last 7 Days</span>
+</div>
+<div class="bg-white rounded-xl p-6 h-48 flex items-end justify-between gap-2 overflow-hidden relative shadow-diffuse">
+<!-- SVG Line Chart Path for "Minimal smooth line" -->
+<svg class="absolute inset-0 w-full h-full px-4 pt-12" preserveaspectratio="none" viewbox="0 0 100 100">
+<path d="M 0 80 Q 15 75, 25 60 T 45 65 T 65 40 T 85 55 T 100 20" fill="none" stroke="url(#gradient-stroke)" stroke-linecap="round" stroke-width="3"></path>
+<defs>
+<lineargradient id="gradient-stroke" x1="0%" x2="100%" y1="0%" y2="0%">
+<stop offset="0%" style="stop-color:#10B981;stop-opacity:0.2"></stop>
+<stop offset="100%" style="stop-color:#10B981;stop-opacity:1"></stop>
+</lineargradient>
+</defs>
+</svg>
+<!-- Axis Labels -->
+<div class="absolute bottom-4 left-6 right-6 flex justify-between text-[10px] text-on-surface-variant font-bold uppercase tracking-widest">
+<span>Mon</span>
+<span>Wed</span>
+<span>Fri</span>
+<span>Sun</span>
+</div>
+</div>
+</section>
+<!-- Secondary Section: Recent Activity -->
+<section class="space-y-4">
+<div class="flex justify-between items-center">
+<h3 class="text-lg font-bold font-headline">Recent Transactions</h3>
+<button class="text-primary text-base font-semibold hover:underline px-4 py-2 min-h-[48px] inline-flex items-center">View All</button>
+</div>
+<div class="space-y-3">
+<!-- Transaction 1 -->
+<div class="flex items-center justify-between p-4 bg-white rounded-xl hover:bg-surface-variant transition-all group py-5 shadow-diffuse">
+<div class="flex items-center gap-4">
+<div class="w-12 h-12 rounded-xl bg-surface-variant flex items-center justify-center group-hover:bg-surface-container">
+<span class="material-symbols-outlined text-secondary" data-icon="restaurant">restaurant</span>
+</div>
+<div>
+<p class="font-bold text-on-surface">Vegetarian Groceries</p>
+<p class="text-on-surface-variant text-sm">Today • 2:45 PM</p>
+</div>
+</div>
+<span class="font-bold text-on-surface">-$45.00</span>
+</div>
+<!-- Transaction 2 -->
+<div class="flex items-center justify-between p-4 bg-white rounded-xl hover:bg-surface-variant transition-all group py-5 shadow-diffuse">
+<div class="flex items-center gap-4">
+<div class="w-12 h-12 rounded-xl bg-surface-variant flex items-center justify-center group-hover:bg-surface-container">
+<span class="material-symbols-outlined text-tertiary" data-icon="card_giftcard">card_giftcard</span>
+</div>
+<div>
+<p class="font-bold text-on-surface">Gift for Ananya</p>
+<p class="text-on-surface-variant text-sm">Yesterday • 6:12 PM</p>
+</div>
+</div>
+<span class="font-bold text-on-surface">-$120.00</span>
+</div>
+<!-- Transaction 3 -->
+<div class="flex items-center justify-between p-4 bg-white rounded-xl hover:bg-surface-variant transition-all group py-5 shadow-diffuse">
+<div class="flex items-center gap-4">
+<div class="w-12 h-12 rounded-xl bg-surface-variant flex items-center justify-center group-hover:bg-surface-container">
+<span class="material-symbols-outlined text-primary" data-icon="dns">dns</span>
+</div>
+<div>
+<p class="font-bold text-on-surface">Pro Coding Server Hosting</p>
+<p class="text-on-surface-variant text-sm">Mon • 12:00 AM</p>
+</div>
+</div>
+<span class="font-bold text-on-surface">-$15.00</span>
+</div>
+</div>
+</section>
+</main>
+<!-- FAB: Book a Walk -->
+<button class="fixed bottom-28 right-6 w-14 h-14 rounded-full glass-fab flex items-center justify-center text-on-primary z-50 active:scale-90 transition-transform duration-200">
+<span class="material-symbols-outlined text-3xl font-bold" style="font-variation-settings: 'FILL' 0, 'wght' 700;">add</span>
+</button>
+<!-- BottomNavBar -->
+<nav class="fixed bottom-0 left-0 w-full z-50 flex justify-around items-center px-4 pb-6 pt-2 bg-white/90 backdrop-blur-xl rounded-t-[1.5rem] shadow-[0_-4px_40px_rgba(0,0,0,0.05)]">
+<div class="flex flex-col items-center justify-center text-[#10B981] bg-surface-variant rounded-xl px-4 py-2 active:scale-90 duration-200 min-h-[64px]">
+<span class="material-symbols-outlined">home</span>
+<span class="font-medium mt-1 uppercase tracking-wider text-[12px]">Home</span>
+</div>
+<div class="flex flex-col items-center justify-center text-[#6B7280] px-4 py-2 hover:text-[#10B981] transition-all min-h-[64px]">
+<span class="material-symbols-outlined">receipt_long</span>
+<span class="font-medium mt-1 uppercase tracking-wider text-[12px]">Transactions</span>
+</div>
+<div class="flex flex-col items-center justify-center text-[#6B7280] px-4 py-2 hover:text-[#10B981] transition-all min-h-[64px]">
+<span class="material-symbols-outlined">track_changes</span>
+<span class="font-medium mt-1 uppercase tracking-wider text-[12px]">Goals</span>
+</div>
+<div class="flex flex-col items-center justify-center text-[#6B7280] px-4 py-2 hover:text-[#10B981] transition-all min-h-[64px]">
+<span class="material-symbols-outlined">insights</span>
+<span class="font-medium mt-1 uppercase tracking-wider text-[12px]">Insights</span>
+</div>
+</nav>
+</body></html>
